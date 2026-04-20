@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog — TikTok Live Rehberi | Force Ajans</title>
+  <meta name="description" content="TikTok Live yayıncılık rehberleri, kazanç ipuçları, ekipman tavsiyeleri ve başarı hikayeleri. Force Ajans blogu." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.forceajans.com/blog.html" />
+  <meta property="og:title" content="Blog — TikTok Live Rehberi | Force Ajans" />
+  <meta property="og:description" content="TikTok Live yayıncılık rehberleri, kazanç ipuçları ve başarı hikayeleri." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="blog.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Force Ajans Blog",
+    "url": "https://www.forceajans.com/blog.html",
+    "description": "TikTok Live yayıncılık rehberleri ve ipuçları",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Force Ajans",
+      "url": "https://www.forceajans.com"
+    }
+  }
+  </script>
+</head>
+<body>
+
+<nav class="navbar scrolled" id="navbar">
+  <div class="nav-wrap">
+    <a href="index.html" class="logo">FORCE<span>AJANS</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html#hakkimizda">Hakkımızda</a></li>
+      <li><a href="index.html#avantajlar">Avantajlar</a></li>
+      <li><a href="index.html#gelir">Gelir</a></li>
+      <li><a href="index.html#yayincilarimiz">Yayıncılarımız</a></li>
+      <li><a href="blog.html" class="active-nav">Blog</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="index.html#basvuru" class="btn-nav-primary">Hemen Başvur</a>
+    </div>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="blog-hero">
+  <div class="blog-hero-orb bho1"></div>
+  <div class="blog-hero-orb bho2"></div>
+  <div class="container">
+    <div class="blog-hero-inner">
+      <div class="sec-tag">Blog</div>
+      <h1>TikTok Live <span class="grad">Rehberi</span></h1>
+      <p>Yayıncılık kariyerini büyütmek için uzman içerikler, strateji rehberleri ve başarı hikayeleri.</p>
+      <div class="blog-search">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        <input type="text" id="searchInput" placeholder="Blog yazısı ara..." />
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CATEGORIES -->
+<div class="blog-cats-bar">
+  <div class="container">
+    <div class="blog-cats" id="blogCats">
+      <button class="bcat active" data-cat="all">Tümü</button>
+      <button class="bcat" data-cat="Strateji">Strateji</button>
+      <button class="bcat" data-cat="Kazanç">Kazanç</button>
+      <button class="bcat" data-cat="Ekipman">Ekipman</button>
+      <button class="bcat" data-cat="Başarı Hikayesi">Başarı Hikayeleri</button>
+      <button class="bcat" data-cat="İpuçları">İpuçları</button>
+    </div>
+  </div>
+</div>
+
+<!-- POSTS GRID -->
+<section class="blog-main">
+  <div class="container">
+    <div class="blog-layout">
+      <div class="blog-posts">
+        <div class="blog-grid" id="blogPostsGrid">
+          <!-- JS ile doldurulur -->
+          <div class="blog-loading">Yazılar yükleniyor...</div>
+        </div>
+        <div class="blog-no-result" id="blogNoResult" style="display:none">
+          <span>🔍</span>
+          <p>Arama kriterinize uygun yazı bulunamadı.</p>
+        </div>
+      </div>
+
+      <!-- SIDEBAR -->
+      <aside class="blog-sidebar">
+        <div class="bs-widget">
+          <h4>Kategoriler</h4>
+          <ul class="bs-cat-list" id="bsSideCats">
+            <li><a href="#" data-cat="Strateji">Strateji <span>0</span></a></li>
+            <li><a href="#" data-cat="Kazanç">Kazanç <span>0</span></a></li>
+            <li><a href="#" data-cat="Ekipman">Ekipman <span>0</span></a></li>
+            <li><a href="#" data-cat="Başarı Hikayesi">Başarı Hikayeleri <span>0</span></a></li>
+            <li><a href="#" data-cat="İpuçları">İpuçları <span>0</span></a></li>
+          </ul>
+        </div>
+        <div class="bs-widget">
+          <h4>Hızlı Başvuru</h4>
+          <div class="bs-cta">
+            <p>Force Ajans'a ücretsiz katıl, TikTok Live'dan kazanmaya başla.</p>
+            <a href="index.html#basvuru" class="btn-primary" style="width:100%;justify-content:center;margin-top:12px">Başvur →</a>
+          </div>
+        </div>
+        <div class="bs-widget">
+          <h4>WhatsApp Destek</h4>
+          <a href="https://wa.me/905550000000" class="bs-wa" target="_blank">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Hemen Yaz — 7/24 Aktif
+          </a>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER mini -->
+<footer class="footer" style="padding:40px 0 24px">
+  <div class="container">
+    <div class="footer-bottom">
+      <p>© 2025 Force Ajans. <a href="index.html" style="color:var(--muted)">Ana Sayfa</a> &nbsp;·&nbsp; Tasarım: <a href="https://MkMedya.com" target="_blank" rel="noopener" style="color:var(--muted);text-decoration:underline;text-underline-offset:3px">MkMedya</a></p>
+      <div class="footer-legal">
+        <a href="index.html#basvuru">Başvur</a>
+        <a href="index.html#sss">SSS</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/905550000000?text=Merhaba%2C%20Force%20Ajans%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum."
+   class="wa-btn" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  <span class="wa-label">Bize Yazın</span>
+  <span class="wa-pulse"></span>
+</a>
+
+<script src="blog.js"></script>
+</body>
+</html>
